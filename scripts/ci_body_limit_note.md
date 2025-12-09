@@ -1,0 +1,1 @@
+For REST body-size limits, also enforce at your ASGI proxy (nginx/traefik) or Uvicorn/Gunicorn worker settings. BodySizeLimitMiddleware enforces `ELEANOR_MAX_BODY_BYTES` (default 100KB) via Content-Length; proxies should set a similar or lower cap in production.

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+.env
+.env.*
+venv/
+*.log
+*.sqlite3
+*.DS_Store
+data/
+.pre-commit-config.yaml
